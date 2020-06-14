@@ -1,0 +1,1 @@
+This is a magic chat. Here you can chat with bot.

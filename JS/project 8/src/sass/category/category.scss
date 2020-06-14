@@ -1,0 +1,99 @@
+@import "../variables";
+@import "../mixin";
+@import "../category/range";
+
+.page-head {
+  background-image: url("../../img/cart/shop-bg.png");
+  @include backgroundSet;
+  padding: 110px 0 110px 230px;
+}
+
+.cart-title {
+  @include setFont($thirtysixSize);
+}
+
+.category-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.shop-head {
+  display: flex;
+  width: 1020px;
+  height: fit-content;
+  flex-wrap: wrap;
+}
+
+.empty-message {
+  padding: 45px 50px 45px;
+  border: 5px dashed $discountAccentClr;
+  @include setFont($twentySize);
+  background: url(../../img/sorry-card/3.png);
+  @include backgroundSet();
+  background-size: 415px 400px;
+  color: #727272;
+  font-weight: 600;
+  min-height: 650px;
+}
+
+.filter-form {
+  min-width: 250px;
+  background-color: #ebebeb;
+  padding: 50px 40px;
+  border-radius: 10px;
+  margin-right: 40px;
+  height: fit-content;
+}
+
+.filter-button {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  @include setFont($eighteenSize);
+  @include buttonSet();
+  padding: 5px 15px;
+  margin-bottom: 25px;
+  transition: all .4s ease-in-out;
+  &:hover {
+    border: 2px solid transparent;
+    background-color: $mainDarkClr;
+    color: $mainLightClr;
+  }
+}
+
+.range-slider {
+  width: 300px;
+}
+
+.price-color {
+  color: $mainDarkClr;
+}
+
+.filter{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.filter-name {
+  margin-bottom: 15px;
+  @include setFont($twentySize);
+  font-size: 25px;
+}
+
+.filter-label {
+  @include setFont($fourteenSize);
+  font-size: 18px;
+  line-height: 18px;
+  cursor: pointer;
+}
+.checkbox-margin {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.check-container{
+margin-bottom: 15px;
+}

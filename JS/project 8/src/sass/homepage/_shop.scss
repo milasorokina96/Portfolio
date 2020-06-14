@@ -1,0 +1,26 @@
+.shop-line {
+  display: flex;
+  justify-content: center;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.shop-line-top {
+  padding-top: 100px;
+}
+
+.shop-line-bot {
+  padding-bottom: 170px;
+}
+
+@media (max-width: 1446px) {
+  .shop-line {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .shop-card {
+    &:not(:last-of-type) {
+      margin-right: 10px;
+    }
+  }
+}

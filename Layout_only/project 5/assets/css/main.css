@@ -1,0 +1,126 @@
+body {
+	background-color: rgb(20, 27, 35);
+	margin: 0;
+}
+.wrapper {
+	width: 1000px;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+	font-family: Calibri;
+}
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.page-header {
+	margin-bottom: 100px;
+}
+.navigation__list {
+	padding: 0;
+	float: left;
+}
+.text_yellow {
+	color: rgb(241, 242, 115);
+}
+.navigation__iteam {
+	display: inline;
+	padding-right: 50px;
+}
+.navigation__iteam:last-child {
+	padding-right: 0;
+}
+.logo__link {
+	float: right;
+}
+.page-main {
+	margin-bottom: 220px;
+}
+.main__info {
+	margin-bottom: 70px;
+}
+.info__img {
+	text-align: center;
+	border-bottom: 5px solid rgb(241, 242, 115);
+	margin-bottom: 50px;
+}
+.info__img img {
+	vertical-align: bottom;
+}
+.text_white {
+	text-align: justify;
+	color: rgb(255, 255, 255);
+}
+.main__about {
+	margin-bottom: 70px;
+}
+.headline {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.about__imgline {
+	margin-bottom: 50px;
+}
+.about__imgline img {
+	width: 32%;
+	margin-right: 2%; 
+	float: left;
+}
+.about__imgline img:last-child {
+	margin-right: 0;
+}
+.about__list {
+	position: relative;
+}
+.about__iteam {
+	list-style: none;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.about__iteam:last-child {
+	margin-bottom: 0;
+}
+.about__iteam::before {
+	content: '–';
+	width: 20px;
+	height: 20px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	text-align: center;
+	background-color: rgb(241, 242, 115);
+	position: absolute;
+	left: 20px;
+}
+.main__slider {
+	position: relative;
+}
+.slider__bg {
+	background-color: rgb(142, 145, 149);
+	height: 300px; 
+	position: relative;
+}
+.slider__button {
+	border: 2px solid black;
+    font-size: 30px;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+	background-color: rgb(241, 242, 115);
+}
+.slider__button:first-child {
+	position: absolute;
+	top: 150px;
+	left: 30px;
+	transform: translateY(-50%);
+}
+.slider__button:last-child {
+	position: absolute;
+	top: 150px;
+	right: 30px;
+	transform: translateY(-50%);
+}
+.copywrite {
+	text-align: right;
+}

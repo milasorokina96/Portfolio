@@ -1,0 +1,41 @@
+.banner-head {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ece7dd;
+}
+
+.banner-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 120px;
+  margin-right: 200px;
+}
+
+.banner-text {
+  @include setFont($seventySize);
+  max-width: 420px;
+  color: #574c3c;
+  margin-bottom: 75px;
+  text-align: right;
+}
+
+.banner-button {
+  width: 185px;
+  @include setFont($twentySize);
+  background-color: transparent;
+  border: 2px solid #574c3c;
+  color: #574c3c;
+  cursor: pointer;
+  padding: 23px 20px;
+  transition: all 0.4s ease-in-out;
+  &:hover {
+    border: 2px solid transparent;
+    background-color: $bannerAccentClr;
+    color: $mainLightClr;
+  }
+}

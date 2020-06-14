@@ -1,0 +1,141 @@
+/*   MAIN CLR  */
+/*   ACCENT CLR   */
+/*   FONT SIZES   */
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%; }
+
+input[type=range]:focus {
+  outline: none; }
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 7px;
+  cursor: pointer;
+  background: white;
+  border-radius: 10px;
+  border: 0px solid #000000; }
+
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #000000;
+  border: 0px solid #000000;
+  height: 18px;
+  width: 18px;
+  border-radius: 25px;
+  background: #595959;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -5.5px; }
+
+.spanValue {
+  font-family: "OpenSans Regular", Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px; }
+
+.page-head {
+  background-image: url("../../img/cart/shop-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 110px 0 110px 230px; }
+
+.cart-title {
+  font-family: "OpenSans Regular", Helvetica, sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400; }
+
+.category-wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
+.shop-head {
+  display: flex;
+  width: 1020px;
+  height: fit-content;
+  flex-wrap: wrap; }
+
+.empty-message {
+  padding: 45px 50px 45px;
+  border: 5px dashed #9aac5f;
+  font-family: "OpenSans Regular", Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  background: url(../../img/sorry-card/3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 415px 400px;
+  color: #727272;
+  font-weight: 600;
+  min-height: 650px; }
+
+.filter-form {
+  min-width: 250px;
+  background-color: #ebebeb;
+  padding: 50px 40px;
+  border-radius: 10px;
+  margin-right: 40px;
+  height: fit-content; }
+
+.filter-button {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  font-family: "OpenSans Regular", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  background-color: transparent;
+  border: 2px solid #000000;
+  color: #000000;
+  cursor: pointer;
+  padding: 5px 15px;
+  margin-bottom: 25px;
+  transition: all .4s ease-in-out; }
+  .filter-button:hover {
+    border: 2px solid transparent;
+    background-color: #000000;
+    color: #ffffff; }
+
+.range-slider {
+  width: 300px; }
+
+.price-color {
+  color: #000000; }
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px; }
+
+.filter-name {
+  margin-bottom: 15px;
+  font-family: "OpenSans Regular", Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 25px; }
+
+.filter-label {
+  font-family: "OpenSans Regular", Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  cursor: pointer; }
+
+.checkbox-margin {
+  margin-right: 50px;
+  cursor: pointer; }
+
+.check-container {
+  margin-bottom: 15px; }

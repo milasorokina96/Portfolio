@@ -1,0 +1,172 @@
+/*   MAIN CLR  */
+/*   ACCENT CLR   */
+/*   FONT SIZES   */
+.carousel {
+  position: relative; }
+
+.head-text-block {
+  position: absolute;
+  top: 25%;
+  left: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.main-header {
+  font-family: "OpenSans Bold", Helvetica, sans-serif;
+  font-size: 7em;
+  color: #ffffff;
+  margin-bottom: 50px; }
+
+.header-description {
+  font-family: "OpenSans Regular", Helvetica, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 2em;
+  color: #ffffff;
+  margin-bottom: 37px; }
+
+.head-buy-button {
+  font-family: "OpenSans Regular", Helvetica, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 2em;
+  padding: 23px 45px;
+  transition: all 0.4s ease-in-out;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  cursor: pointer; }
+  .head-buy-button:hover {
+    border: 2px solid transparent;
+    background-color: #d1cdca;
+    color: #ffffff; }
+
+.slider-img {
+  filter: brightness(50%); }
+
+@media (max-width: 1748px) {
+  .main-header {
+    font-size: 5em;
+    margin-bottom: 0.5em; }
+  .header-description {
+    font-size: 2em;
+    margin-bottom: 1.5em; }
+  .head-buy-button {
+    font-family: "OpenSans Regular", Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 2em;
+    padding: 0.5em 1em; } }
+
+.banner-head {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ece7dd; }
+
+.banner-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 120px;
+  margin-right: 200px; }
+
+.banner-text {
+  font-family: "OpenSans Regular", Helvetica, sans-serif;
+  font-size: 72px;
+  line-height: 72px;
+  font-weight: 400;
+  max-width: 420px;
+  color: #574c3c;
+  margin-bottom: 75px;
+  text-align: right; }
+
+.banner-button {
+  width: 185px;
+  font-family: "OpenSans Regular", Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  background-color: transparent;
+  border: 2px solid #574c3c;
+  color: #574c3c;
+  cursor: pointer;
+  padding: 23px 20px;
+  transition: all 0.4s ease-in-out; }
+  .banner-button:hover {
+    border: 2px solid transparent;
+    background-color: #bf9f4e;
+    color: #ffffff; }
+
+.shop-line {
+  display: flex;
+  justify-content: center;
+  padding-left: 60px;
+  padding-right: 60px; }
+
+.shop-line-top {
+  padding-top: 100px; }
+
+.shop-line-bot {
+  padding-bottom: 170px; }
+
+@media (max-width: 1446px) {
+  .shop-line {
+    justify-content: space-around;
+    flex-wrap: wrap; }
+  .shop-card:not(:last-of-type) {
+    margin-right: 10px; } }
+
+.about-us {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 125px;
+  position: relative; }
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px; }
+
+.about-img {
+  width: 512px;
+  height: 609px; }
+
+.about-header {
+  font-family: "OpenSans Regular", Helvetica, sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+  margin-bottom: 30px; }
+
+.about-description {
+  font-family: "OpenSans Regular", Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 700px;
+  margin-bottom: 30px;
+  text-align: justify; }
+
+.about-signature-name {
+  font-family: "OpenSans Regular", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  line-height: 35px;
+  max-width: 700px; }
+
+.texture {
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  top: -10%;
+  left: 20%;
+  z-index: -1; }

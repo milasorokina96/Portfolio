@@ -1,0 +1,18 @@
+@import '../variables';
+@import "../mixin";
+
+@import 'header';
+@import 'product-info';
+@import 'review';
+@import 'description';
+
+.wrapper {
+    @include flex($fd:column, $jc:center, $ai:center, $fw:wrap);
+    max-width: 1920px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 50px; 
+    font-family: 'OpenSans Regular', sans-serif;
+}
+
+
